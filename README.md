@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Awesome GitHub Pages Site</title>
+    <title>My Awesome Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1>Welcome to My Awesome Site..!</h1>
+    <!-- Title and Heading -->
+    <h1>Welcome to My Personal Website!</h1>
 
-    <img src="https://via.placeholder.com/400" alt="Sample Image" />
+    <!-- Image -->
+    <img src="https://via.placeholder.com/400" alt="Sample Image" class="my-image"/>
 
-    <p>Click below to visit a cool website:</p>
-    <a href="https://www.example.com" target="_blank">Click here to visit Example!</a>
+    <!-- Hyperlink -->
+    <p>Check out this cool website for more information:</p>
+    <a href="https://www.example.com" target="_blank">Visit Example.com!</a>
 
+    <!-- Button with OnClick event -->
     <br><br>
-    <button onclick="showAlert()">Click Me</button>
+    <button onclick="showMessage()">Click Me for a Surprise!</button>
 
+    <!-- JavaScript Function -->
     <script>
-        function showAlert() {
-            alert("You clicked the button!");
+        function showMessage() {
+            alert("Surprise! You clicked the button!");
         }
     </script>
 
