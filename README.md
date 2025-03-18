@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <h1>Welcome to My Awesome Site!</h1>
+    <h1>Welcome to My Awesome Site..!</h1>
 
     <img src="https://via.placeholder.com/400" alt="Sample Image" />
 
